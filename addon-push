@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Replace this value to push to different release channels.
-ANDROID_APP_ID=org.mozilla.fennec_$USER
+ANDROID_APP_ID=org.mozilla.firefox
+
+# ANDROID_APP_ID=org.mozilla.fennec_$USER
 
 # TODO: Make sure this does not suck with spaces in filenames.
 ADDON_PATH=$1
